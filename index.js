@@ -49,4 +49,40 @@ p1--;
 p1++;
 console.log(p1);
 //function
+function myfunction() {
+  //   console.log("helo");
+  //   alert("helo majid");
+  var age = prompt("what is your name", "majid shah");
+  if (age != null) {
+    document.getElementById("p2").innerHTML =
+      "Helo " + age + "! how are you today";
+  }
+}
 
+/*
+ Let's create function that take in a name ans say helo folllwed your name
+
+*/
+/*
+Name: "majid"
+return:"helo majid"
+*/
+
+function fun() {
+  var name = prompt("what is your name");
+  var result = "helo " + name;
+  alert(result);
+  //   console.log(result);
+}
+// fun();
+
+//how do arguments work in function
+
+// how to add 2 number together
+function sum(num1, num2) {
+  $result = num1 + num2;
+  alert($result);
+  console.log($result);
+}
+
+// sum(59, 2);
