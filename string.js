@@ -8,4 +8,4 @@ console.log(fruit.slice(0, 2));
 console.log(fruit.replace("app", "232"));
 console.log(fruit.toLocaleUpperCase());
 console.log(fruit.toLocaleLowerCase());
-console.log(fruit.split(''));
+console.log("split", fruit.split(""));
